@@ -167,20 +167,23 @@ void sendFilesRecursively(int socket, char *basePath, char *destination, int fla
         }
         int flag1 = 0;
         snprintf(path, sizeof(path), "%s/%s", basePath, entry1->d_name);
-        for (int i = 0; i < entry.numberofpaths; i++)
-        {
-            if (strcmp(entry.pathsaccessible[i], path) == 0)
-            {
-                flag1 = 1;
-                break;
-            }
-        }
-        if (flag1 == 0)
-        {
-            continue;
-        }
+        // for (int i = 0; i < entry.numberofpaths; i++)
+        // {
+        //     if (strcmp(entry.pathsaccessible[i], path) == 0)
+        //     {
+        //         flag1 = 1;
+        //         break;
+        //     }
+        // }
+        // if (flag1 == 0)
+        // {
+        //     continue;
+        // } 
+        // ask for assumption
+        // if all things should be copied without checking if it is in accessible path or not then comment this else uncomment
 
         struct stat st;
+        printf("heyyyyyyyyyyyyy%s\n",path);
         if (stat(path, &st) == 0)
         {
             if (S_ISDIR(st.st_mode))

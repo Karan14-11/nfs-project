@@ -1286,3 +1286,59 @@ WRITE aa.txt
 Connection done
 
 Only Read allowed at the moment
+COPY_DIR ./hi ./hi1
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+CREATE_DIR ./hi
+
+Connection done
+
+THE COMMAND WAS NOT PERFORMED DUE TO SOME TECHNICAL ERROR, BETTER LUCK NEXT TIME
+CREATE_DIR ./hello
+
+Connection done
+
+THE COMMAND SUCCESSFULLY PERFORMED
+CREATE_FILE ./hello/hi.txt
+
+Connection done
+
+THE COMMAND SUCCESSFULLY PERFORMED
+WRITE ./hello/hi.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+READ ./hello/hi.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+CREATE_DIR ./hello1
+
+Connection done
+
+THE COMMAND SUCCESSFULLY PERFORMED
+COPY_DIR ./hello ./hello1
+
+Connection done
+
+THE COMMAND SUCCESSFULLY PERFORMED
+COPY_DIR ./hello ./hello1
+
+Connection done
+
+THE COMMAND SUCCESSFULLY PERFORMED
+COPY_DIR ./hello ./hello1
+
+Connection done
+
+THE COMMAND SUCCESSFULLY PERFORMED
