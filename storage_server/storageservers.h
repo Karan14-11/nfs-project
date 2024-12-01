@@ -4,7 +4,7 @@
 #include"macros.h"
 
 struct entries {
-    char *ip;
+    // char ip;
     int port;
     int portforclient;
     int numberofpaths;

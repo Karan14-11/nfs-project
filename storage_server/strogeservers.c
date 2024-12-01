@@ -6,16 +6,17 @@ entries entry;
 
 void *client(void *arg)
 {
+    printf("hello\n");
     ssize_t s1, r1;
     struct com h = *(struct com *)arg;
     sem_post(&argsetter);
     char response[5];
     strcpy(response, "OK");
+    printf("hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii%d\n",h.h);
     if (h.h == READ)
     {
         printf("here wefrgfth\n");
         char *data = (char *)malloc(sizeof(char) * MAX_BUFFER_AT_ONE_TIME);
-        printf("hehe\n");
         int a = 11;
         int fd = open(h.arr, O_RDONLY);
         if (fd == -1)
@@ -81,6 +82,64 @@ void *client(void *arg)
         }
         close(fd);
     }
+    else if(h.h ==WRITE_ASYNC){
+        printf("hereertydeswe 0\n");
+
+        s1 = send(h.socket, response, 5, 0);
+
+        int fd = open(h.arr, O_WRONLY | O_TRUNC);
+        if (fd == -1)
+        {
+            perror("Error in opening file");
+        }
+        printf("hereertydeswe\n");
+        
+        char data[1000000];
+        int a=0;
+        data[a]='\0';
+        while (1)
+        {
+            r1 = recv(h.socket, data+a, MAX_BUFFER_AT_ONE_TIME, 0);
+            data[a+strlen(data+a)]='\0';
+            if (r1 < 0)
+            {
+                perror("Error in receiving data");
+            }
+            if (strcmp(data+a, "STOP") == 0)
+            {
+                data[a]='\0';
+                break;
+            }
+
+            s1 = send(h.socket, response, 5, 0);
+            if (s1 < 0)
+            {
+                perror("Error in sending data");
+            }
+        
+            a+=strlen(data+a);
+        
+        }
+        int b=0;
+        printf("hello\n");
+        while(b<a){
+            if(strlen(data+b)>MAX_BUFFER_AT_ONE_TIME){
+
+            r1=write(fd,data+b,MAX_BUFFER_AT_ONE_TIME);
+            }
+            else{
+                         r1=write(fd,data+b,strlen(data+b));
+   
+            }
+            b+=r1;
+        }
+                    s1 = send(h.socket, response, 5, 0);
+            if (s1 < 0)
+            {
+                perror("Error in sending data");
+            }
+        close(fd);
+        }
     else if (h.h == ADD_INFO)
     {
         char *data = (char *)malloc(sizeof(char) * MAX_BUFFER_AT_ONE_TIME);
@@ -91,6 +150,48 @@ void *client(void *arg)
             perror("Error in sending data");
         }
         r1 = recv(h.socket, response, 5, 0);
+    }
+    else if (h.h== STREAM){
+ printf("here wefrgfth eregtrhyew\n");
+        char *data = (char *)malloc(sizeof(char) * MAX_BUFFER_AT_ONE_TIME);
+        int a = 11;
+        FILE* fd = fopen(h.arr, "rb");
+
+        int d=0;
+        while (1)
+        {
+            printf("hi1 %d\n",d);
+            data[0]='\0';
+            a = fread(data,1,MAX_BUFFER_AT_ONE_TIME-1,fd);
+            data[a]='\0';
+
+            printf("\n%d\n",a);
+
+            if (a != 0 && a != -1)
+            {
+                printf("waiting to send\n");
+
+                s1 = send(h.socket, data, a, 0);
+                if (s1 < 0)
+                {
+                    perror("Error in sending data");
+                }
+                printf("waiting for response\n");
+                r1 = recv(h.socket, response, 5, 0);
+                printf("got response %s\n");
+            }
+            else
+            {
+                printf("hereee\n");
+                strcpy(data, "STOP");
+                s1 = send(h.socket, data, MAX_BUFFER_AT_ONE_TIME, 0);
+                r1 = recv(h.socket, response, 5, 0);
+                break;
+            }
+            d++;
+        }
+        fclose(fd);
+
     }
     strcpy(response, "OK");
     send(sock, response, 5, 0);
@@ -163,12 +264,14 @@ int main(int argc, char *argv[])
     printf("%d\n", number);
     char cwd[1024];
     storageserverinitiailise(pp, ip, port1, &entry, getcwd(cwd, sizeof(cwd)));
+    printf("%s\n",entry.pathsaccessible[0]);
     ssize_t s2 = send(sock, &entry, sizeof(entry), 0);
     if (s2 < 0)
     {
         perror("Error in sending data");
     }
     printf("%d %d\n", s2, sizeof(entry));
+    // exit(0);
     // ptrtofirstdata datafirst = malloc(sizeof(struct firstdata));
     // recv(sock,datafirst,sizeof(firstdata),0);
     pthread_t fornamingserver;
@@ -203,6 +306,7 @@ int main(int argc, char *argv[])
 
     while (1)
     {
+        printf("why seg");
         sem_wait(&argsetter);
         pthread_t threadid;
 
@@ -234,6 +338,8 @@ int main(int argc, char *argv[])
         {
             perror("Error in receiving data");
         }
+        printf("heiii\n");
         pthread_create(&threadid, NULL, client, h);
+        printf("I am resetting\n");
     }
 }

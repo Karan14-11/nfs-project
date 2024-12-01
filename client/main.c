@@ -69,6 +69,23 @@ int main()
         char *h1 = strtok_r(NULL, "\n", &x);
         strcpy(NS.path1, h1);
     }
+    else if (strcmp("STREAM", oper) == 0)
+    {
+        NS.number = STREAM;
+        char *h1 = strtok_r(NULL, "\n", &x);
+        strcpy(NS.path1, h1);
+        if (NS.path1[strlen(NS.path1) - 1] == 't')
+        {
+            printf("INVALID FILE FORMAT\n");
+            exit(EXIT_FAILURE);
+        }
+    }
+    else if (strcmp("WRITE_ASYNC", oper) == 0)
+    {
+        NS.number = WRITE_ASYNC;
+        char *h1 = strtok_r(NULL, "\n", &x);
+        strcpy(NS.path1, h1);
+    }
 
     int fd1, fd2;
     struct sockaddr_in server_addr, client_addr;
@@ -93,7 +110,8 @@ int main()
 
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(5555);
-    server_addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+    server_addr.sin_addr.s_addr = INADDR_ANY;
+    printf("I am here\n");
     int b = connect(fd1, (struct sockaddr *)&server_addr, sizeof(server_addr));
     if (b < 0)
     {
@@ -102,6 +120,17 @@ int main()
     }
 
     printf("CONNECTED TO NAMING SERVER\n");
+    int flag = 0;
+    if (NS.number == STREAM)
+    {
+        NS.number = READ;
+        flag = 1;
+    }
+    else if (NS.number == WRITE_ASYNC)
+    {
+        NS.number = WRITE;
+        flag = 1;
+    }
     ssize_t bytes_sent = write(fd1, &NS, sizeof(struct namingserver));
     ssize_t bytes_received = recv(fd1, &ss, sizeof(struct storageserver), 0);
     timeout.tv_sec = 0;
@@ -122,5 +151,18 @@ int main()
         int u = 1;
         bytes_sent = send(fd1, &u, 4, 0);
     }
+    if (flag == 1)
+    {
+        if (NS.number == READ)
+        {
+
+            NS.number = STREAM;
+        }
+        else
+        {
+            NS.number = WRITE_ASYNC;
+        }
+    }
+
     handle_flags("127.0.0.1", 5555, &ss, &NS, fd1);
 }

@@ -108,7 +108,7 @@ handle_client(void *arg)
     }
 
     printf("Details of Arrived Storage Server\n");
-    printf("IP: %s\nPort for Client: %d\nPort for back connection: %d\nNo. of accessible paths:%d\n", inp.ip, inp.portforclient, inp.port, inp.numberofpaths);
+    printf("Port for Client: %d\nPort for back connection: %d\nNo. of accessible paths:%d One of the path:%s\n", inp.portforclient, inp.port, inp.numberofpaths,inp.pathsaccessible[0]);
 
     /// checking if ss already existed
     int id = check_old(inp.portforclient);

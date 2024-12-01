@@ -1,0 +1,1288 @@
+READ copy.c
+
+READ copy.c
+
+READ copy.c
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+READ ./copy.c
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+READ copy.c
+
+READ copy.c
+
+READ copy.c
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+WRITE a.txt
+
+WRITE a.txt
+
+WRITE a.txt
+
+WRITE a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+ADDITIONAL_INFO a.txt
+
+READ copy.c
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+mpv --version
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+timeout
+
+STREAMSTRESTREAM a.mp3
+
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+STREAM a.mp3
+
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+STREAM test.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+READ a.txt
+
+Connection done
+
+READ a.txt
+
+Connection done
+
+READ a.txt
+
+Connection done
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+STREAM a.mp3
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+WRITE_ASYNC
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+READ a.txt
+
+READ a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Data given
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+WRITE_ASYNC
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.tx
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+WRITE_ASYNC a.tx
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+            r1=write(fd,data+b,MAX_BUFFER_AT_ONE_TIME);
+
+write_async A.TXT
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Only Read allowed at the moment
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Only Read allowed at the moment
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Only Read allowed at the moment
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+                        if(bytesRead==1){
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Only Read allowed at the moment
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Only Read allowed at the moment
+WRITE_ASYNC a.txt
+
+Connection done
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+                        printf("heloooooooo\n");
+
+Connection done
+
+THE GIVEN PATH IS NOT YET REGISTERED WITH US, SORRY FOR INCONVENIENCE!
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+WRITE_ASYNC a.txt
+
+WRITE_ASYNC a.txt
+
+Connection done
+
+Connecting to storage server
+Connected to the storage server
+Write done successfully
+
+READ aa.txt
+
+Connection done
+
+READ aa.txt
+
+Connection done
+
+WRITE aa.txt
+
+Connection done
+
+Only Read allowed at the moment

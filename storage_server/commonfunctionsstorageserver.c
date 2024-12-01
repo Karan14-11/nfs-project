@@ -8,72 +8,12 @@ struct global_operation
 };
 
 sem_t argumentsetter;
-// void listFilesAndDirs(const char *basePath, const char *relativePath, struct entries *entry)
-// {
-//     DIR *dir = opendir(basePath);
-//     if (!dir)
-//     {
-//         perror("opendir");
-//         return;
-//     }
 
-//     struct dirent *dp;
-//     while ((dp = readdir(dir)) != NULL)
-//     {
-//         if (strcmp(dp->d_name, ".") == 0 || strcmp(dp->d_name, "..") == 0 || strstr(dp->d_name, ".c") != NULL || strstr(dp->d_name, ".h") != NULL || strcmp(dp->d_name, "Makefile") == 0 || strstr(dp->d_name, ".o") != NULL || strstr(dp->d_name, ".json") != NULL )
-//             continue;
-
-//         char fullPath[MAX_PATH_LENGTH + 1];
-//         snprintf(fullPath, sizeof(fullPath), "%s/%s", basePath, dp->d_name);
-
-//         char relativeFullPath[MAX_PATH_LENGTH + 1];
-//         snprintf(relativeFullPath, sizeof(relativeFullPath), "%s/%s", relativePath, dp->d_name);
-
-//         struct stat st;
-//         if (stat(fullPath, &st) == 0)
-//         {
-//             if (S_ISDIR(st.st_mode))
-//             {
-//                 if (entry->numberofpaths < MAX_PATHS)
-//                 {
-// strcpy(entry->pathsaccessible[entry->numberofpaths], relativeFullPath);
-//                     // printf("%s\n", entry->pathsaccessible[entry->numberofpaths]);
-
-//                     entry->numberofpaths++;
-//                     listFilesAndDirs(fullPath, relativeFullPath, entry);
-//                 }
-//                 else
-//                 {
-//                     fprintf(stderr, "Max paths exceeded\n");
-//                 }
-//             }
-//             else if (S_ISREG(st.st_mode))
-//             {
-//                 if (entry->numberofpaths < MAX_PATHS)
-//                 {
-//                     strcpy(entry->pathsaccessible[entry->numberofpaths], relativeFullPath);
-//                     // printf("%s\n", entry->pathsaccessible[entry->numberofpaths]);
-
-//                     entry->numberofpaths++;
-//                 }
-//                 else
-//                 {
-//                     fprintf(stderr, "Max paths exceeded\n");
-//                 }
-//             }
-//         }
-//         else
-//         {
-//             perror("stat");
-//         }
-//     }
-//     closedir(dir);
-// }
 void storageserverinitiailise(int port, char *ip, int portforclientcommunication, struct entries *entry, char *path)
 {
     entry->port = port;
     entry->portforclient = portforclientcommunication;
-    entry->ip = strdup(ip);
+    // entry->ip = strdup(ip);
     entry->numberofpaths = 0;
     // printf("%s\n", entry->pathsaccessible[entry->numberofpaths]);
 
@@ -87,8 +27,7 @@ void storageserverinitiailise(int port, char *ip, int portforclientcommunication
             break;
         }
         char b[MAX_PATH_LENGTH];
-        b[0] = '.';
-        int c = 1;
+        int c = 0;
         for (int i = 0; i < strlen(a); i++)
         {
             b[c++] = a[i];
@@ -214,6 +153,7 @@ void *namingserver(void *arg)
         pthread_t threadid;
 
         int hh = recv(sock, name, sizeof(struct global_operation), 0);
+        printf("herewertyu\n");
         strcpy(h.arr, name->path1);
         strcpy(h.arr1, name->path2);
         h.h = name->operation;

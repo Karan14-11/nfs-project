@@ -24,7 +24,7 @@ struct global_operation
 };
 
 struct entries {
-    char *ip;
+    // char *ip;
     int port;
     int portforclient;
     int numberofpaths;

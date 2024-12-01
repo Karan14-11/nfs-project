@@ -49,15 +49,13 @@ void* set_up_tcp_user(void *)
     sem_post(&main_s);
     while (1)
     {
-
+        printf("herefhgjfkls\n");
         if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t *)&addrlen)) < 0)
         {
             perror("accept");
             exit(EXIT_FAILURE);
         }
-        
-
-
+        printf("I am here\n");
         if (pthread_create(&request_thread[i], NULL, handle_user, (void *)&new_socket) != 0)
         {
             perror("pthread_create");

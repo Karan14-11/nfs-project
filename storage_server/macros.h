@@ -15,4 +15,6 @@
 #define READ 7
 #define WRITE 8
 #define ADD_INFO 9
+#define STREAM 10
+#define WRITE_ASYNC 11
 #define SELFCOPY -1000
